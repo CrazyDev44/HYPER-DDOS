@@ -16,10 +16,10 @@ def clear_storage():
             except Exception as e:
                 print(f"Oops, Check ur internet connection.. {item_path}: {e}")
     else:
-        print(f"Checking if File Exists: {storage_path}")
+        print(f"Targetting Website: {storage_path}")
 
     # Print success message in green
-    print(colored("Erase done, Thanks for banking with us", "green"))
+    print(colored("Input Website url please", "green"))
 
 if __name__ == "__main__":
     clear_storage()
